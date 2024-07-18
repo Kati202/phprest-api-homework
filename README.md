@@ -1,6 +1,6 @@
 ## REST API weboldal
 
-Node.js és js nyelven íródott termékkekel foglalkozó oldal.
+Node.js és js nyelven íródott, termékkekel foglalkozó oldal.
 
 ## Funkciói
 
