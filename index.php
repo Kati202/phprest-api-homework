@@ -88,13 +88,12 @@ function getItems($pdo) {
 }
 
 // Eladott termékek lekérdezése
-function getSoldItems($pdo) {
+function getSoldItems($pdo) {           
     $sql = "SELECT * FROM sold_items";
     $stmt = $pdo->query($sql);
     $items = $stmt->fetchAll();
     echo json_encode($items);
 }
-
 // Termék lekérdezése ID alapján
 function getItemById($pdo, $id) {
     $sql = "SELECT * FROM items WHERE id = ?";
